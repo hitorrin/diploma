@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "mathjs": "^11.8.0",
-    "matrix-js": "^1.6.1"
-  }
-}
