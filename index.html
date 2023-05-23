@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <script src="/node_modules/mathjs/lib/browser/math.js" type="text/javascript"></script>
+        <script type = 'module' src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title> Тессеракт </title>
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+        <script type = 'module' src="script.js"></script>
+    <div id="main_canvas">
+        <canvas id="canvas"></canvas>
+        <div>
+            <button id="stop_animation" > Stop animation </button>
+            <button id="continue_animation" > Continue animation</button>
+            <button id="scan"  > Развернуть куб</button>
+        </div>
+    </br>
+        <div id="buttons_rotate_axes">
+        <button id="xy" class = "button_rotate"> Rotate by XY</button>
+        <button id="xz" class = "button_rotate"> Rotate by XZ</button>
+        <button id="xw" class = "button_rotate"> Rotate by XW</button>
+        <button id="yz" class = "button_rotate"> Rotate by YZ</button>
+        <button id="yw" class = "button_rotate"> Rotate by YW</button>
+        <button id="zw"class = "button_rotate"> Rotate by ZW</button>
+    </div>
+</br>
+    <div id="button-default">
+        <button id="default"> Default rotation</button>
+    </div>
+
+  
+    <div>Координаты вводятся от 0 до 1!</div>
+    <input type="text" class="coordinates" placeholder="Введите x..." />
+    <input type="text" class="coordinates" placeholder="Введите y..." />
+    <input type="text" class="coordinates" placeholder="Введите z..." />
+    <input type="text" class="coordinates"  placeholder="Введите w..." />
+    <button id = 'new_coordinates'> Ввести </button>
+    <button id = 'buildPoint'> Построить точку</button>
+    <div id = "new-user-coordinates"> Координаты точки: </div>
+</div>
+    </body>
+
+</html>

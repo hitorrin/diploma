@@ -1,0 +1,62 @@
+
+#canvas{
+    background-color:  black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_canvas{
+    background-image: url(https://imageup.ru/img56/4339743/1644017695_60-phonoteka-org-p-fon-geometriya-treugolniki-60.jpg);
+}
+
+#buttons_rotate{
+    display: grid;
+    grid-template-columns:  repeat(6, 1fr);
+    grid-auto-columns: minmax(100px, auto);
+
+}
+.button_rotate {
+    display: inline-block ;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: #5ca03b;
+    border: 3px solid #7eae5f;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 25px; 
+    transition: all 0.4s ease;
+    margin: 0.5em;
+}
+
+
+#button-default{
+   display: grid; 
+   grid-template-columns:   1fr;
+}
+.button_rotate:hover{
+    text-decoration: none; 
+    background-color: #59a630;
+    color: #ffeded;
+    border-color: #59a630;
+}
+
+#default{
+    display: inline-block ;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: #5ca03b;
+    border: 3px solid #7eae5f;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 25px; 
+    transition: all 0.4s ease;
+    margin: 0.5em;
+}
+
+#default:hover{
+    text-decoration: none; 
+    background-color: #59a630;
+    color: #ffeded;
+    border-color: #59a630;
+}
